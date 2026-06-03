@@ -25,6 +25,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+// Commit 3: Configuración de rutas
 @Composable
 fun IMCApp() {
     val navController = rememberNavController() // Aquí se crea un NavController, que es el objeto encargado de manejar la navegación entre pantallas.
