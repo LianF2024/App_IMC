@@ -49,7 +49,7 @@ fun IMCApp() {
         }
     }
 }
-
+//Commit 1: "Pantalla 1 y UI"
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun InputScreen(navController: NavController) {
