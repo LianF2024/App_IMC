@@ -133,6 +133,7 @@ fun ResultScreen(navController: NavController, nombre: String, imc: Float) {
     val categoria: String
     val color: Color
 
+    // Commit 2: Lógica de estado y validaciones
     //RETO 3: Clasificación dinámica con colores
     when {
         imc < 18.5 -> {
