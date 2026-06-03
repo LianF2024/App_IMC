@@ -128,6 +128,7 @@ fun InputScreen(navController: NavController) {
     }
 }
 
+// Commit 4: Pantalla 2 terminada
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ResultScreen(navController: NavController, nombre: String, imc: Float) {
